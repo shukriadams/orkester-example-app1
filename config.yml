@@ -1,1 +1,10 @@
 # placeholder yml config file
+containers:
+  - Key : uniqueid1
+    Path : /containers/mainapp
+    Repo : https://github.com/shukriadams/orkester-container1-config.git
+    ComposePath : /docker-compose-main.yml
+    Enabled : true
+    Trigger : tag
+    BackupMask : "*/5 * * * * *"
+    BackupCommand : echo "backup worked"
