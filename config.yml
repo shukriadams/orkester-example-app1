@@ -1,5 +1,5 @@
 # placeholder yml config file
-containers:
+Compose:
   - Key : uniqueid1
     Path : /containers/mainapp
     Repo : https://github.com/shukriadams/orkester-container1-config.git
