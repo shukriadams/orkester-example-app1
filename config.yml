@@ -1,7 +1,7 @@
 # placeholder yml config file
 Compose:
   - Key : uniqueid1
-    Path : /containers/mainapp
+    Path : /tmp/orkester-working/mainapp
     Repo : https://github.com/shukriadams/orkester-container1-config.git
     ComposePath : /docker-compose-main.yml
     Enabled : true
